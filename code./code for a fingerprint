@@ -1,0 +1,18 @@
+#include <iostream>
+
+class FingerprintScanner {
+public:
+    void scan() {
+        std::cout << "Scanning fingerprint..." << std::endl;
+        // Perform fingerprint scanning logic here
+        // ...
+        std::cout << "Fingerprint scan complete." << std::endl;
+    }
+};
+
+int main() {
+    FingerprintScanner scanner;
+    scanner.scan();
+
+    return 0;
+}
